@@ -1,0 +1,459 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset='utf-8'>
+    <title>Shibunkaku | Mishima Ritsue</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/mishima/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/mishima/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="assets/mishima/css/styles_jp.css">
+    <link rel="stylesheet" href="assets/mishima/css/hamburgers.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@200;300;400&family=IM+Fell+English:ital@1&family=Noto+Sans+JP:wght@300;400&family=Noto+Serif+JP:wght@300;400&display=swap" rel="stylesheet">
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- JS -->
+    <script type="text/javascript" src="assets/mishima/js/script.js"></script>
+    <script type="text/javascript" src="assets/mishima/js/jquery.js"></script>
+
+
+
+</head>
+
+
+
+
+<body>
+
+    <!-- side drawer and header ----------------------------->
+    <div class="side-drawer" id="side-drawer">
+        <ul>
+            <li><a href="https://shop.shibunkaku.co.jp/shop/default.aspx">思文閣オンラインショップ</a></li>
+            <li><a href="https://www.shibunkaku.co.jp/">思文閣トップ</a></li>
+            <li onclick="showSubmenu('1')">
+                <a href="javascript:void(0);">過去のイベント</a>
+                <ul class="submenu" id="submenu1">
+                    <li><a href="https://www.shibunkaku.co.jp/event/kida.html">木田安彦 世界の市</a></li>
+                    <li><a href="https://shop.shibunkaku.co.jp/shop/e/eHayashi/">林武「彼女」展</a></li>
+                    <li><a href="https://shop.shibunkaku.co.jp/shop/e/eAkagi/">赤木明登 茶の箱とうつわ</a></li>
+                    <li><a href="https://shop.shibunkaku.co.jp/shop/e/eKuroda/">黒田征太郎・泰蔵兄弟展</a></li>
+                    <li><a href="https://shop.shibunkaku.co.jp/shop/e/eYamagu/">山口長男水彩展</a></li>
+                </ul>
+            </li>
+            <li><a href="https://shop.shibunkaku.co.jp/shop/r/r10/">作家一覧</a></li>
+            <li onclick="showSubmenu('2')">
+                <a href="javascript:void(0);">ジャンルで検索</a>
+                <ul class="submenu" id="submenu2">
+                    <li><a href="https://shop.shibunkaku.co.jp/shop/goods/search.aspx?search=x&genre_tree=60&search=search">書</a></li>
+                    <li><a href="https://shop.shibunkaku.co.jp/shop/goods/search.aspx?search=x&genre_tree=70&search=search">画</a></li>
+                    <li><a href="https://shop.shibunkaku.co.jp/shop/goods/search.aspx?search=x&genre_tree=80&search=search">工芸</a></li>
+                </ul>
+            </li>
+            <li onclick="showSubmenu('3')">
+                <a href="javascript:void(0);">形式で検索</a>
+                <ul class="submenu" id="submenu3">
+                    <li><a href="https://shop.shibunkaku.co.jp/shop/goods/search.aspx?search=x&genre_tree=30&search=search">軸</a></li>
+                    <li><a href="https://shop.shibunkaku.co.jp/shop/goods/search.aspx?search=x&genre_tree=40&search=search">額</a></li>
+                    <li><a href="https://shop.shibunkaku.co.jp/shop/goods/search.aspx?search=x&genre_tree=50&search=search">屏風</a></li>
+                </ul>
+            </li>
+            <li id="signInLinkMobile">
+                <a href="https://shop.shibunkaku.co.jp/shop/customer/menu.aspx">ログイン/マイページ</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="header" id="header">
+        <div class="menu-left">
+            <div>
+                <button class="hamburger hamburger--3dxy" type="button" onClick="menuButtonAnimation()" id="hamburger">
+                    <span class="hamburger-box">
+                        <span class="hamburger-inner"></span>
+                    </span>
+                </button>
+            </div>
+            <div>
+                <a href="https://shop.shibunkaku.co.jp/english/shop/default.aspx">
+                    <img id="logo" src="assets/shibunlogo.jpg"></a>
+            </div>
+            <div class="signIn-mobile">
+                <a href="mishima_eng.html">ENG</a>
+            </div>
+        </div>
+        <div class="signIn">
+            <div class="signInItemLeft">
+                <a href="https://shop.shibunkaku.co.jp/english/shop/customer/menu.aspx">ログイン/マイページ</a>
+            </div>
+            <div>
+                <a href="mishima_eng.html">ENG</a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- top section  ----------------------------------->
+    <div class="section-1 bgImage-1" id="bgImage-1">
+        <img src="assets/mishima/img/y_0322_edit.jpg">
+    </div>
+
+    <div id="section-2" class="container-fluid">
+        <div class="intro1">
+<!--            <h1>三嶋りつ恵 オンライン特集</h1>-->
+<!--            <p1>「立ってみると、そういう感じは少し静かにしているわかってくるみたいなことがある…」</p1>-->
+
+            <!-- <div class="separator" style="margin-bottom: 0">
+                <hr size="1">
+            </div> -->
+
+            <p>この度思文閣のオンラインショップに、この夏にふさわしい三嶋りつ惠のガラス作品をご用意いたしました。京都に生まれ、ヴェネツィアを拠点に活動する三嶋は、その作品を通してガラスの可能性を追求しつづけてきました。三嶋の作品はヴェネツィア、ムラーノ島の熟練した職人たちとのコラボレーションによって生み出されています。<br><br>ヴェネツィアングラスは色彩のあるものが多い中、三嶋の作品は無色透明です。それは、ガラスがその時の光の色によって何色にもなりえるからだと三嶋は語っています。透明度の高いガラスは光を包み込み、そしてより魅力的な光となって空間に溶け込んでいきます。今回は、弊社とのコラボレーションで生まれた「ようの美」としての作品もご用意しております。美術作品としての魅力を持ちながら、日常での機能性も兼ねそなえた作品を、ぜひこの機会にご高覧下さいませ。</p>
+        </div>
+    </div>
+
+
+    <!--works - most expensive ---------------------->
+
+    <div class="container-fluid">
+        <a href="https://shop.shibunkaku.co.jp/english/shop/g/g202007-001/">
+            <div class="row">
+                <div class="col-12 twoInRow2px" style="border-bottom: 1px solid white">
+                    <img src="assets/mishima/img/001_3.jpg">
+                </div>
+            </div>
+            <div class="row no-gutters">
+                <div class="col-12 col-sm-6">
+                    <img class="twoInRow2px" src="assets/mishima/img/001_1.jpg">
+                </div>
+                <div class="col-12 col-sm-6 twoInRow2px">
+                    <img src="assets/mishima/img/001_2.jpg">
+                </div>
+            </div>
+        </a>
+        <div class="row">
+            <div class="col-12">
+                <p class="caption"><a href="https://shop.shibunkaku.co.jp/english/shop/g/g202007-001/">雪の花<br>
+                        H17.5 W17.5 / 3.1kg<br>
+                        2007</a></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid pt-sm-4">
+        <a href="https://shop.shibunkaku.co.jp/english/shop/g/g202007-002/">
+            <div class="row no-gutters">
+                <div class="col-12 col-sm-4">
+                    <img class="twoInRow2px" src="assets/mishima/img/002_1a.jpg">
+                </div>
+                <div class="col-12 col-sm-8 twoInRow2px">
+                    <img src="assets/mishima/img/002_4.jpg">
+                </div>
+            </div>
+        </a>
+        <div class="row">
+            <div class="col-12">
+                <p class="caption"><a href="https://shop.shibunkaku.co.jp/english/shop/g/g202007-002/">星雲<br>
+                H19.6 W22.4 / 6kg<br>
+                2014</a></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid pt-sm-4">
+        <div class="row no-gutters">
+            <div class="col-12 col-sm-8 twoInRow2px">
+                <img src="assets/mishima/img/007_4.jpg">
+            </div>
+            <div class="col-12 col-sm-4 twoInRow2px">
+                <img src="assets/mishima/img/007_3a.jpg">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <p class="caption"><a href="https://shop.shibunkaku.co.jp/english/shop/g/g202007-002/">山笑う<br>
+                H9.0 W11.5 / 0.5kg<br>
+                2014</a></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="separator">
+        <hr size="1">
+    </div>
+
+    <div class="container-fluid pt-sm-4">
+        <div class="row no-gutters">
+            <div class="col-12 col-sm-6">
+                <a href="https://shop.shibunkaku.co.jp/english/shop/g/g202007-005/"><img class="twoInRow" src="assets/mishima/img/005_3.jpg">
+                <p>細胞<br>H29.4 W18.8 /4.6kg</p></a>
+            </div>
+            <div class="col-12 col-sm-6">
+                <a href="https://shop.shibunkaku.co.jp/english/shop/g/g202007-004/">
+                <img class="twoInRow-reverse" src="assets/mishima/img/004_3.jpg">
+                <p>流星＃1<br>H8.5 W12 / 0.6kg</p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid pt-2 pb-4">
+        <div class="row no-gutters">
+            <div class="col-12 col-sm-6">
+                <a href="https://shop.shibunkaku.co.jp/english/shop/g/g202007-006/"><img class="twoInRow" src="assets/mishima/img/006_4.jpg">
+                <p>雪のあと<br>H9.1 W12.4 / 0.7kg<br>2014</p></a>
+            </div>
+            <div class="col-12 col-sm-6">
+                <a href="https://shop.shibunkaku.co.jp/english/shop/g/g202007-008/">
+                <img class="twoInRow-reverse" src="assets/mishima/img/008_3.jpg">
+                <p>山吹<br>H10 W12.6 / 0.5kg<br>2014</p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="section-3" id="bgImage-2">
+        <img src="assets/mishima/img/y_0324_edit.jpg">
+    </div>
+
+
+    <div id="section-2" class="container-fluid">
+        <div class="intro1">
+            <!-- <p1><br>「この感動をどう伝えることが出来るだろうか。」</p1> -->
+            <p style="padding-top: 30px">「ムラーノ島の端にあるこの工房に通い始めたのは、1996年からだ。水上バス乗り場で出逢った見知らぬ人から紹介され、偶然に入ったこの工房からわたしのガラスへの道が始まった。ガラス制作は、一人のマエストロに二人のセルヴェンテ（アシスタント）がつくピアッツァと呼ばれるグループでひとつの作品がつくられる。千年もの間に磨かれてきた伝統的な技法を今に伝える親方達と共に、時には作業の一員となって汗を流し、時には見守りながら指揮をとる。その日の偶然や瞬時のアイディアを取り入れて作品を仕上げていく。<br><br>
+
+                作品にはその日のすべてが関わる。ガラスのたね、セルヴェンテの動き、マエストロの気分と集中力、わたしの決断そして時間の中でのプロセスと形、すべてがひとつになり、その日の炎の果実が生まれる。窯の中で溶けたマグマのようなドロドロの液体が、鉄棒の先に付けられ、グルグル回るうちに、液体が固体となり、火と時間との格闘の中ですべてがひとつとなり、目の前で形がとどまる。物質と行為が連続したリズムをもつガラス作品の制作はいつもわたしに新鮮な感動と情熱を与えてくれる。」　三嶋りつ惠</p>
+        </div>
+    </div>
+
+    <!--MEDIUM EXPENSIVE   threeInRow variant ----->
+    <div class="container-fluid pt-4">
+        <div class="row no-gutters">
+            <div class="col-12 col-sm-4">
+                <a href="https://shop.shibunkaku.co.jp/english/shop/g/g202007-009/">
+                    <img class="twoInRow2px" src="assets/mishima/img/009_1.jpg">
+                    <p>繭の絹<br>H15.8 W23.6 ×13.2/ 3.8kg</p>
+                </a>
+            </div>
+            <div class="col-12 col-sm-4">
+                <a href="https://shop.shibunkaku.co.jp/english/shop/g/g202007-010/">
+                    <img class="twoInRow2px" src="assets/mishima/img/010_1.jpg">
+                    <p>井戸<br>H15.8 W20.5 / 4.6kg</p>
+                </a>
+            </div>
+            <div class="col-12 col-sm-4">
+                <a href="https://shop.shibunkaku.co.jp/english/shop/g/g202007-011/">
+                    <img class="twoInRow2px" src="assets/mishima/img/011_1.jpg">
+                    <p>水紋<br>H25.5 W19.5 / 4.4kg</p>
+                </a>
+            </div>
+        </div>
+
+        <div class="row no-gutters">
+            <div class="col-12 col-sm-4">
+                <a href="https://shop.shibunkaku.co.jp/english/shop/g/g202007-012/">
+                    <img class="twoInRow2px" src="assets/mishima/img/012_1.jpg">
+                    <p>雪の卵<br>H20.5 W27.5 x 15.5 cm / 4.7kg</p>
+                </a>
+            </div>
+            <div class="col-12 col-sm-4">
+                <a href="https://shop.shibunkaku.co.jp/english/shop/g/g202007-013/">
+                    <img class="twoInRow2px" src="assets/mishima/img/013_1.jpg">
+                    <p>こころ<br>H15 W23.9 cm / 2.7kg</p>
+                </a>
+            </div>
+            <div class="col-12 col-sm-4">
+                <a href="https://shop.shibunkaku.co.jp/english/shop/g/g202007-014/">
+                    <img class="twoInRow2px" src="assets/mishima/img/014_1.jpg">
+                    <p>アニマ<br>H14.9 W21.4 x 17.4cm / 6.6kg</p>
+                </a>
+            </div>
+        </div>
+
+        <div class="row no-gutters">
+            <div class="col-12 col-sm-4">
+                <a href="https://shop.shibunkaku.co.jp/english/shop/g/g202007-015/">
+                    <img class="twoInRow2px" src="assets/mishima/img/015_1.jpg">
+                    <p>霙<br>H7.0 W7.8cm / 0.5kg</p>
+                </a>
+            </div>
+            <div class="col-12 col-sm-4">
+                <a href="https://shop.shibunkaku.co.jp/english/shop/g/g202007-016/">
+                    <img class="twoInRow2px" src="assets/mishima/img/016_1.jpg">
+                    <p>月の光<br>H8.0 W6.4 / 0.4kg</p>
+                </a>
+            </div>
+            <div class="col-12 col-sm-4">
+                <a href="https://shop.shibunkaku.co.jp/english/shop/g/g202007-017/">
+                    <img class="twoInRow2px" src="assets/mishima/img/017_1.jpg">
+                    <p>水琴<br>H5.2 W7.1 / 0.2kg</p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="separator">
+        <hr size="1">
+    </div>
+
+
+    <!--LESS EXPENSIVE   fourInRow variant ----->
+    <div class="container-fluid pt-4">
+        <div class="row no-gutters">
+            <div class="col-12 col-sm-3">
+                <a href="https://shop.shibunkaku.co.jp/english/shop/g/g202007-018/">
+                    <img class="twoInRow2px" src="assets/mishima/img/018_1.jpg">
+                    <p>音玉<br>H8.1 W8.2 / 0.2kg</p>
+                </a>
+            </div>
+            <div class="col-12 col-sm-3">
+                <a href="https://shop.shibunkaku.co.jp/english/shop/g/g202007-019/">
+                    <img class="twoInRow2px" src="assets/mishima/img/019_1.jpg">
+                    <p>糸巻<br>H10 W6 / 0.2k</p>
+                </a>
+            </div>
+            <div class="col-12 col-sm-3">
+                <a href="https://shop.shibunkaku.co.jp/english/shop/g/g202007-020/">
+                    <img class="twoInRow2px" src="assets/mishima/img/020_1.jpg">
+                    <p>琴糸<br>H8 W6.4 / 0.2kg</p>
+                </a>
+            </div>
+            <div class="col-12 col-sm-3">
+                <a href="https://shop.shibunkaku.co.jp/english/shop/g/g202007-021/">
+                    <img class="twoInRow2px" src="assets/mishima/img/021_1.jpg">
+                    <p>水紋＃1<br>H5.8 W6.6 / 0.3kg</p>
+                </a>
+            </div>
+        </div>
+        <div class="row no-gutters">
+            <div class="col-12 col-sm-3">
+                <a href="https://shop.shibunkaku.co.jp/english/shop/g/g202007-022/">
+                    <img class="twoInRow2px" src="assets/mishima/img/022_1.jpg">
+                    <p>水紋＃2<br>H6.3 W6.2 / 0.4kg</p>
+                </a>
+            </div>
+            <div class="col-12 col-sm-3">
+                <a href="https://shop.shibunkaku.co.jp/english/shop/g/g202007-023/">
+                    <img class="twoInRow2px" src="assets/mishima/img/023_1.jpg">
+                    <p>塔＃1<br>H8.5 W8.5 / 0.2kg</p>
+                </a>
+            </div>
+            <div class="col-12 col-sm-3">
+                <a href="https://shop.shibunkaku.co.jp/english/shop/g/g202007-024/">
+                    <img class="twoInRow2px" src="assets/mishima/img/024_1.jpg">
+                    <p>光箱＃1<br>H8.5 W7.2 / 0.3kg</p>
+                </a>
+            </div>
+            <div class="col-12 col-sm-3">
+                <a href="https://shop.shibunkaku.co.jp/english/shop/g/g202007-025/">
+                    <img class="twoInRow2px" src="assets/mishima/img/025_1.jpg">
+                    <p>光箱＃2<br>H9.5 W8 / 0.3kg</p>
+                </a>
+            </div>
+        </div>
+        <div class="row no-gutters">
+            <div class="col-12 col-sm-3">
+                <a href="https://shop.shibunkaku.co.jp/english/shop/g/g202007-026/">
+                    <img class="twoInRow2px" src="assets/mishima/img/026_1.jpg">
+                    <p>パンドーラ＃1<br>H11.4 x W8.2 / 0.4kg</p>
+                </a>
+            </div>
+            <div class="col-12 col-sm-3">
+                <a href="https://shop.shibunkaku.co.jp/english/shop/g/g202007-027/">
+                    <img class="twoInRow2px" src="assets/mishima/img/027_1.jpg">
+                    <p>星の粉＃2<br>H10.8 x W7.7 / 0.3kg</p>
+                </a>
+            </div>
+            <div class="col-12 col-sm-3">
+                <a href="https://shop.shibunkaku.co.jp/english/shop/g/g202007-028/">
+                    <img class="twoInRow2px" src="assets/mishima/img/028_1.jpg">
+                    <p>光の泡＃1<br>H7.4 W8.1 / 0.3kg</p>
+                </a>
+            </div>
+            <div class="col-12 col-sm-3">
+                <a href="https://shop.shibunkaku.co.jp/english/shop/g/g202007-029/">
+                    <img class="twoInRow2px" src="assets/mishima/img/029_1.jpg">
+                    <p>光の泡＃2<br>H7 W8.3 / 0.3kg</p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="separator">
+        <hr size="1">
+    </div>
+
+
+    <!-- multiples, threeInRow ----->
+    <div class="container-fluid pt-4 pb-4">
+        <div class="row no-gutters">
+            <div class="col-12 col-sm-4">
+                <a href="https://shop.shibunkaku.co.jp/english/shop/g/g202007-030/">
+                    <img class="twoInRow2px" src="assets/mishima/img/030_1.jpg">
+                    <p>ドットグラス<br>H7.5 W10 / 0.2kg</p>
+                </a>
+            </div>
+            <div class="col-12 col-sm-4">
+                <a href="https://shop.shibunkaku.co.jp/english/shop/g/g202007-036/">
+                    <img class="twoInRow2px" src="assets/mishima/img/036_1.jpg">
+                    <p>宇宙の雫 （花生）<br>H9.5 W11.3 / 0.6kg</p>
+                </a>
+            </div>
+            <div class="col-12 col-sm-4">
+                <a href="https://shop.shibunkaku.co.jp/english/shop/g/g202007-037/">
+                    <img class="twoInRow2px" src="assets/mishima/img/037_1.jpg">
+                    <p>宇宙の雫<br>H5.5 W18.4 / 0.5kgg</p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Mishima book ------------------------->
+    <div class="container-fluid py-sm-4">
+        <div class="row no-gutters">
+            <div class="col-12 col-sm-6">
+                <a href="https://shop.shibunkaku.co.jp/english/shop/g/g202007-038/"><img src="assets/mishima/img/mishima_bookcover.jpg"></a>
+            </div>
+            <div class="col-12 col-sm-6 book">
+                <p><a href="https://shop.shibunkaku.co.jp/english/shop/g/g202007-038/">
+                三嶋りつ惠作品集<br>
+                    『炎の果実』</a><br><br>
+                青幻舎<br>2007<br>
+                English, 256ページ<br>
+                26.2 x 23.4 x 3.3cm</p>
+                <p style="font-size: .9em; line-height: 1.4">三嶋りつ惠の約10年にわたる制作活動を集約した初の作品集。200点に及ぶ作品を、世界各地で展示した際の写真と共に紹介。<br><br>1996年よりイタリアのヴェネチアに渡り、世界的に活躍するガラス作家 三嶋りつ惠の初の作品集。ムラーノ島のガラスの世界に魅了された三嶋は、やがてガラス工房に通うようになり、職人たちとのコラボレーションによる作品制作をはじめます。ヴェネチアンガラスには彩色されたものが多いなか、三嶋はあくまでも「透明なガラス」にこだわり、水や光、空間との関連性を重視した作品を生み出してきました。2007年、ヴァンジ彫刻庭園美術館にて個展「しずかな粒子」を開催。</p>
+            </div>
+            <div class="col-3"></div>
+        </div>
+    </div>
+
+
+    <!-- FOOTER --------------------------------------------->
+    <hr class="hr-footer">
+
+    <div class="footer">
+        <div class="footer-item">
+            <p><a href="https://www.shibunkaku.co.jp/english/privacypolicy/">個人情報</a></p>
+            <p><a href="https://shop.shibunkaku.co.jp/english/shop/pages/legal.aspx">特定商取引法等</a></p>
+            <p><a href="https://www.shibunkaku.co.jp/english/company/">会社情報</a></p>
+            <p><a href="https://shop.shibunkaku.co.jp/english/shop/pages/guide.aspx">ご注文のご案内</a></p>
+            <p id="contact"><a href="https://shop.shibunkaku.co.jp/english/shop/contact/contact.aspx">お問い合わせ</a></p>
+            <p class="copyright" style="margin: 0">© Shibunkaku 2020</p>
+        </div>
+        <div class="sns-item">
+            <a href="https://www.facebook.com/Shibunkaku-%E6%80%9D%E6%96%87%E9%96%A3-300176220101381/" target="_blank"><img id="facebook" src="assets/sns_icons/Icon01_FB.jpg"></a>
+            <a href="https://www.instagram.com/shibunkaku/?hl=en" target="_blank"><img src="assets/sns_icons/Icon02_Instagram.jpg"></a>
+            <a href="https://twitter.com/G_SHIBUNKAKU" target="_blank"><img src="assets/sns_icons/Icon03_Twitter.jpg"></a>
+        </div>
+    </div>
+
+</body></html>
